@@ -5,7 +5,7 @@ To run this example, follow the below commands
 ```
 $ git clone https://github.com/VisorFolks/cyancore.git               # Clone cyancore repo
 $ vi mk/tc_get.mk       # Updated toolchain
-$ cd src/project
+$ cd src/projects
 $ git clone https://github.com/akashkollipara/cc-sort-with-rev.git   # Clone this repo
 $ cd ../../
 $ make get_avr_tc       # Use correct command for fetching toolchain, this is just for illustration purpose
