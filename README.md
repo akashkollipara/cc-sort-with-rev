@@ -9,7 +9,7 @@ $ cd src/projects
 $ git clone https://github.com/akashkollipara/cc-sort-with-rev.git   # Clone this repo
 $ cd ../../
 $ make get_avr_tc       # Use correct command for fetching toolchain, this is just for illustration purpose
-$ make cc-sort-with-rev # build will be locate at out/cc-sort-with-rev
+$ make cc-sort-with-rev # build will be located at out/cc-sort-with-rev
 ```
 
 Flash the binary on target using respective programmer.
