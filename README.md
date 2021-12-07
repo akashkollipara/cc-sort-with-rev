@@ -12,6 +12,14 @@ $ make get_avr_tc       # Use correct command for fetching toolchain, this is ju
 $ make cc-sort-with-rev # build will be located at out/cc-sort-with-rev
 ```
 
+To build and run the example on ubutnu terminal
+```
+$ git clone https://github.com/akashkollipara/cc-sort-with-rev.git
+$ cd sort_with_rev
+$ make app
+$ ./app
+```
+
 Flash the binary on target using respective programmer.
 
 Below is the demo running on atmega328p (Arduino Uno)
