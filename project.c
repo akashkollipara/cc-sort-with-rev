@@ -31,7 +31,7 @@ void plug()
 	printf("\n=================================================\n");
 
 	/* Run the app */
-	app();
+	main();
 	return;
 }
 

@@ -63,16 +63,16 @@ void sort_by_rev(int *arr, int size)
 	}
 }
 
-void app()
+int main()
 {
 	int arr[] = {7, 3, 6, 13, 8, 5, 9, 10, 4, 1, 2};
 	printf("Unsorted Array: ");
-	print_arr(arr, sizeof(arr)/2);
+	print_arr(arr, sizeof(arr)/sizeof(int));
 	printf("\n");
-	sort_by_rev(arr, sizeof(arr)/2);
+	sort_by_rev(arr, sizeof(arr)/sizeof(int));
 	printf("\n");
 	printf("Sorted Array: ");
-	print_arr(arr, sizeof(arr)/2);
+	print_arr(arr, sizeof(arr)/sizeof(int));
 	printf("\n");
-	return;
+	return 0;
 }
